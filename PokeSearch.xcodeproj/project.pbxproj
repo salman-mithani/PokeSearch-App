@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944E6FB01DA1207E0002FF82 /* pokeball_by_britishtime-d68qiw5.png in Resources */ = {isa = PBXBuildFile; fileRef = 944E6FAF1DA1207E0002FF82 /* pokeball_by_britishtime-d68qiw5.png */; };
+		944E6FB21DA12F8A0002FF82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944E6FB11DA12F8A0002FF82 /* Default-568h@2x.png */; };
+		944E6FB41DA13BA20002FF82 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 944E6FB31DA13BA20002FF82 /* icon2.png */; };
+		94EA487B1DA1007400F49FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA487A1DA1007400F49FE2 /* AppDelegate.swift */; };
+		94EA487D1DA1007400F49FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA487C1DA1007400F49FE2 /* ViewController.swift */; };
+		94EA48801DA1007400F49FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EA487E1DA1007400F49FE2 /* Main.storyboard */; };
+		94EA48821DA1007400F49FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EA48811DA1007400F49FE2 /* Assets.xcassets */; };
+		94EA48851DA1007400F49FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EA48831DA1007400F49FE2 /* LaunchScreen.storyboard */; };
+		94EA48901DA1007400F49FE2 /* PokeSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA488F1DA1007400F49FE2 /* PokeSearchTests.swift */; };
+		9DBB3C456361085E81996B8C /* Pods_PokeSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D689D4699B07D6766BB16099 /* Pods_PokeSearch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94EA488C1DA1007400F49FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EA486F1DA1007300F49FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EA48761DA1007300F49FE2;
+			remoteInfo = PokeSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4019D4D1CFD1F9D16646012B /* Pods-PokeSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeSearch/Pods-PokeSearch.release.xcconfig"; sourceTree = "<group>"; };
+		944E6FAF1DA1207E0002FF82 /* pokeball_by_britishtime-d68qiw5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokeball_by_britishtime-d68qiw5.png"; sourceTree = "<group>"; };
+		944E6FB11DA12F8A0002FF82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		944E6FB31DA13BA20002FF82 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		94EA48771DA1007300F49FE2 /* PokeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EA487A1DA1007400F49FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94EA487C1DA1007400F49FE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94EA487F1DA1007400F49FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94EA48811DA1007400F49FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EA48841DA1007400F49FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94EA48861DA1007400F49FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EA488B1DA1007400F49FE2 /* PokeSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EA488F1DA1007400F49FE2 /* PokeSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeSearchTests.swift; sourceTree = "<group>"; };
+		94EA48911DA1007400F49FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D689D4699B07D6766BB16099 /* Pods_PokeSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F895631571FC84E66C8A4D24 /* Pods-PokeSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeSearch/Pods-PokeSearch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EA48741DA1007300F49FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBB3C456361085E81996B8C /* Pods_PokeSearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EA48881DA1007400F49FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C50B2A32A28EC086C7DBE22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F895631571FC84E66C8A4D24 /* Pods-PokeSearch.debug.xcconfig */,
+				4019D4D1CFD1F9D16646012B /* Pods-PokeSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94EA486E1DA1007300F49FE2 = {
+			isa = PBXGroup;
+			children = (
+				944E6FB11DA12F8A0002FF82 /* Default-568h@2x.png */,
+				94EA48791DA1007400F49FE2 /* PokeSearch */,
+				94EA488E1DA1007400F49FE2 /* PokeSearchTests */,
+				94EA48781DA1007300F49FE2 /* Products */,
+				2C50B2A32A28EC086C7DBE22 /* Pods */,
+				ADB16B6543FF9171E8FD10FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94EA48781DA1007300F49FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EA48771DA1007300F49FE2 /* PokeSearch.app */,
+				94EA488B1DA1007400F49FE2 /* PokeSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EA48791DA1007400F49FE2 /* PokeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				944E6FB31DA13BA20002FF82 /* icon2.png */,
+				944E6FAF1DA1207E0002FF82 /* pokeball_by_britishtime-d68qiw5.png */,
+				94EA487A1DA1007400F49FE2 /* AppDelegate.swift */,
+				94EA487C1DA1007400F49FE2 /* ViewController.swift */,
+				94EA487E1DA1007400F49FE2 /* Main.storyboard */,
+				94EA48811DA1007400F49FE2 /* Assets.xcassets */,
+				94EA48831DA1007400F49FE2 /* LaunchScreen.storyboard */,
+				94EA48861DA1007400F49FE2 /* Info.plist */,
+			);
+			path = PokeSearch;
+			sourceTree = "<group>";
+		};
+		94EA488E1DA1007400F49FE2 /* PokeSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				94EA488F1DA1007400F49FE2 /* PokeSearchTests.swift */,
+				94EA48911DA1007400F49FE2 /* Info.plist */,
+			);
+			path = PokeSearchTests;
+			sourceTree = "<group>";
+		};
+		ADB16B6543FF9171E8FD10FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D689D4699B07D6766BB16099 /* Pods_PokeSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EA48761DA1007300F49FE2 /* PokeSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EA48941DA1007400F49FE2 /* Build configuration list for PBXNativeTarget "PokeSearch" */;
+			buildPhases = (
+				9D928066B547D756F4D60233 /* [CP] Check Pods Manifest.lock */,
+				94EA48731DA1007300F49FE2 /* Sources */,
+				94EA48741DA1007300F49FE2 /* Frameworks */,
+				94EA48751DA1007300F49FE2 /* Resources */,
+				9A4205947D756D95DF6CC13A /* [CP] Embed Pods Frameworks */,
+				FA3D45FE9AF174A3905DBAD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeSearch;
+			productName = PokeSearch;
+			productReference = 94EA48771DA1007300F49FE2 /* PokeSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EA488A1DA1007400F49FE2 /* PokeSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EA48971DA1007400F49FE2 /* Build configuration list for PBXNativeTarget "PokeSearchTests" */;
+			buildPhases = (
+				94EA48871DA1007400F49FE2 /* Sources */,
+				94EA48881DA1007400F49FE2 /* Frameworks */,
+				94EA48891DA1007400F49FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EA488D1DA1007400F49FE2 /* PBXTargetDependency */,
+			);
+			name = PokeSearchTests;
+			productName = PokeSearchTests;
+			productReference = 94EA488B1DA1007400F49FE2 /* PokeSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EA486F1DA1007300F49FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Salman Mithani";
+				TargetAttributes = {
+					94EA48761DA1007300F49FE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2BHZ8BSJQW;
+					};
+					94EA488A1DA1007400F49FE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94EA48761DA1007300F49FE2;
+					};
+				};
+			};
+			buildConfigurationList = 94EA48721DA1007300F49FE2 /* Build configuration list for PBXProject "PokeSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94EA486E1DA1007300F49FE2;
+			productRefGroup = 94EA48781DA1007300F49FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EA48761DA1007300F49FE2 /* PokeSearch */,
+				94EA488A1DA1007400F49FE2 /* PokeSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EA48751DA1007300F49FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA48851DA1007400F49FE2 /* LaunchScreen.storyboard in Resources */,
+				94EA48821DA1007400F49FE2 /* Assets.xcassets in Resources */,
+				944E6FB01DA1207E0002FF82 /* pokeball_by_britishtime-d68qiw5.png in Resources */,
+				944E6FB21DA12F8A0002FF82 /* Default-568h@2x.png in Resources */,
+				94EA48801DA1007400F49FE2 /* Main.storyboard in Resources */,
+				944E6FB41DA13BA20002FF82 /* icon2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EA48891DA1007400F49FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4205947D756D95DF6CC13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeSearch/Pods-PokeSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D928066B547D756F4D60233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3D45FE9AF174A3905DBAD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeSearch/Pods-PokeSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EA48731DA1007300F49FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA487D1DA1007400F49FE2 /* ViewController.swift in Sources */,
+				94EA487B1DA1007400F49FE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EA48871DA1007400F49FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA48901DA1007400F49FE2 /* PokeSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94EA488D1DA1007400F49FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EA48761DA1007300F49FE2 /* PokeSearch */;
+			targetProxy = 94EA488C1DA1007400F49FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94EA487E1DA1007400F49FE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA487F1DA1007400F49FE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94EA48831DA1007400F49FE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA48841DA1007400F49FE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94EA48921DA1007400F49FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94EA48931DA1007400F49FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EA48951DA1007400F49FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F895631571FC84E66C8A4D24 /* Pods-PokeSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2BHZ8BSJQW;
+				INFOPLIST_FILE = PokeSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SalmanMithani.PokeSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94EA48961DA1007400F49FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4019D4D1CFD1F9D16646012B /* Pods-PokeSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2BHZ8BSJQW;
+				INFOPLIST_FILE = PokeSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SalmanMithani.PokeSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		94EA48981DA1007400F49FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SalmanMithani.PokeSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeSearch.app/PokeSearch";
+			};
+			name = Debug;
+		};
+		94EA48991DA1007400F49FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SalmanMithani.PokeSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeSearch.app/PokeSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EA48721DA1007300F49FE2 /* Build configuration list for PBXProject "PokeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA48921DA1007400F49FE2 /* Debug */,
+				94EA48931DA1007400F49FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EA48941DA1007400F49FE2 /* Build configuration list for PBXNativeTarget "PokeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA48951DA1007400F49FE2 /* Debug */,
+				94EA48961DA1007400F49FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EA48971DA1007400F49FE2 /* Build configuration list for PBXNativeTarget "PokeSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA48981DA1007400F49FE2 /* Debug */,
+				94EA48991DA1007400F49FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EA486F1DA1007300F49FE2 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "865B661AF5689173B4CDD490CE40C132BD619D4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2291FB829FE72DCE3EC5D357F205DC50DBB9B7BD" : 9223372036854775807,
+    "865B661AF5689173B4CDD490CE40C132BD619D4B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DF0A83B-D893-4D6C-A097-E9478465B25B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2291FB829FE72DCE3EC5D357F205DC50DBB9B7BD" : "PokeSearch%20iOS%2010\/PokeSearch\/",
+    "865B661AF5689173B4CDD490CE40C132BD619D4B" : "PokeSearch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PokeSearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PokeSearch.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/salman0907\/PokeSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2291FB829FE72DCE3EC5D357F205DC50DBB9B7BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/salman0907\/PokeSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "865B661AF5689173B4CDD490CE40C132BD619D4B"
+    }
+  ]
+}
